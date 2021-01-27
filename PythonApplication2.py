@@ -62,6 +62,5 @@ async def 대여(ctx, my_message):
 async def 닭머가리(ctx):
     await ctx.send("https://bit.ly/3aaHq26")
     
-
-app.run('ODAxMjM0NDM2NzY3MDg4Njcy.YAdttw.XRIpMd3cSpNH5baWM7uE5qgr6B8')
- 
+access_token = os.environ["BOT_TOKEN"]
+app.run(access_token)
